@@ -19,3 +19,7 @@ Este reponsitório tem como objetivo congregar o conhecimento técnico Python e 
 * [Exercícios para trabalhar com operadores](01.introducao-ao-python%2F10.05-trabalhando-com-operadores.md)
 * [Exercícios para trabalhar com funções](01.introducao-ao-python%2F10.06-trabalhando-com-funcoes.md)
 * [Referências](01.introducao-ao-python%2F11-referencias.md)
+
+## Sumário sobre _Conhecimentos Extras_
+* [Palavra reservada yield](99.extras%2F99.01-yield.md)
+* [Código Pythônico: Princípios e Práticas](99.extras%2F99.02-bonus-ser-pythonico.md)
