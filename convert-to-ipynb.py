@@ -70,6 +70,8 @@ prefix_files = [
     '10.06-trabalhando-com-funcoes-gabarito'
 ]
 
+prefix_files = filter(lambda s: s in '03.variaveis,tipo-de-dados,estruturas', prefix_files)
+
 # Convert the file
 for prefix_file in prefix_files:
     convert_md_to_ipynb(
