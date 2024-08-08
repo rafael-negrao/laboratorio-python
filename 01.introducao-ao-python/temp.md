@@ -1,6 +1,6 @@
-# Variáveis, tipos de dados, estruturas de controle e estruturas de repeticao
+# Variáveis, tipos de dados, estruturas de controle e estruturas de repetição
 
-## Aprendendo trabalhar com variáveis
+## Aprendendo a trabalhar com variáveis
 
 Vamos explorar detalhadamente os conceitos fundamentais de Python, incluindo a criação de variáveis, tipos de dados, estruturas de dados como listas, conjuntos e dicionários, operadores, estruturas de controle, estruturas de repetição e funções.
 
@@ -644,7 +644,7 @@ print(aleatorio)
 
 Floats podem introduzir erros de precisão devido à sua representação interna em binário. É importante estar ciente dessas limitações ao trabalhar com floats.
 
-##### Comparação com Tolerância
+#### Comparação com Tolerância
 
 Ao comparar floats, é recomendável usar uma tolerância para considerar pequenas diferenças.
 
@@ -859,3 +859,98 @@ a = 5
 print(1 < a < 10)  # Saída: True
 print(10 < a < 20)  # Saída: False
 ```
+
+## Estruturas de Repetição
+
+Estruturas de repetição são fundamentais em qualquer linguagem de programação, permitindo que trechos de código sejam executados múltiplas vezes com base em uma condição ou em uma sequência de valores.
+
+### `for` Loop
+
+O `for` loop em Python é usado para iterar sobre uma sequência (como uma lista, tupla ou string) ou outro objeto iterável.
+
+#### Exemplo de `for` Loop
+
+```python
+# Iterando sobre uma lista
+frutas = ["maçã", "banana", "cereja"]
+for fruta in frutas:
+    print(fruta)
+```
+
+#### Usando `range()`
+
+A função `range()` é frequentemente usada com `for` para gerar uma sequência de números.
+
+```python
+# Iterando de 0 a 4
+for i in range(5):
+    print(i)
+```
+
+Você também pode especificar um início e um fim, e um passo.
+
+```python
+# Iterando de 1 a 9 com passo 2
+for i in range(1, 10, 2):
+    print(i)
+```
+
+### `while` Loop
+
+O `while` loop repete um bloco de código enquanto uma condição for verdadeira.
+
+#### Exemplo de `while` Loop
+
+```python
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+```
+
+### Controle de Loop
+
+#### `break`
+
+O `break` é usado para sair imediatamente de um loop.
+
+```python
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+```
+
+#### `continue`
+
+O `continue` é usado para pular para a próxima iteração do loop.
+
+```python
+for i in range(10):
+    if i % 2 == 0:
+        continue
+    print(i)
+```
+
+### Loops Aninhados
+
+Você pode aninhar loops, ou seja, ter um loop dentro de outro.
+
+```python
+for i in range(3):
+    for j in range(3):
+        print(f"i: {i}, j: {j}")
+```
+
+### `else` em Loops
+
+Python permite usar uma cláusula `else` com loops. O bloco `else` é executado quando o loop termina naturalmente, ou seja, sem encontrar um `break`.
+
+```python
+for i in range(5):
+    print(i)
+else:
+    print("Loop concluído sem interrupção")
+```
+
+
