@@ -5,10 +5,8 @@ Este reponsitório tem como objetivo congregar o conhecimento técnico Python e 
 ## Sumário sobre _Introdução ao Python_
 
 * [Introdução](01.introducao-ao-python%2F01%2C02.introducao.md)
-* [Variáveis, tipos de dados, estruturas de controle e estruturas de repetição](01.introducao-ao-python%2F03.variaveis%2Ctipo-de-dados%2Cestruturas.md)
+* [Variáveis, tipos de dados, estruturas de controle](01.introducao-ao-python%2F03.variaveis%2Ctipo-de-dados%2Cestruturas-de-controle.md)
 * [Estrutura de dados](01.introducao-ao-python%2F04.estrutura-de-dados.md)
-* [Tipos de operadores](01.introducao-ao-python%2F05.operadores.md)
-* [Estruturas de controles](01.introducao-ao-python%2F06.estrutura-de-controles.md)
 * [Estruturas de repeticao](01.introducao-ao-python%2F07.estrutura-de-repeticao.md)
 * [Funções](01.introducao-ao-python%2F08.funcoes.md)
 * [Tratamento de exceções](01.introducao-ao-python%2F09-tratamento-excecoes.md)
